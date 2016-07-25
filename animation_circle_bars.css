@@ -1,0 +1,350 @@
+/* ================================== barra 90% =============================== */
+
+@keyframes gira_barra_noventa {
+   0% {
+        background: url('img/3.png') 0 0 no-repeat;
+        width: 132px;
+        height: 132px;
+        display: block;
+       -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+   }
+   25% { 
+       background: url('img/15.png') 0 0 no-repeat;
+       width: 132px;
+       height: 132px;
+       display: block;
+     
+   }
+   75% {
+       background: url('img/70.png') 0 0 no-repeat;
+       width: 132px;
+       height: 132px;
+       display: block;
+     ;
+   }
+   100% { 
+        background: url('img/90.png') 0 0 no-repeat;
+        width: 132px;
+        height: 132px;
+        display: block;
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+   }
+}
+
+div.av-visible div.my-skills div.circleprogressbar figure.noventa{
+    animation: gira_barra_noventa 1s ease-in 1s 1;
+    background: url('img/90.png') 0 0 no-repeat;
+    width: 132px;
+    height: 132px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -66px;
+    margin-left: -66px;
+}
+
+
+/* ================================== barra 15% =============================== */
+
+
+
+@keyframes gira_barra_quinze {
+   0% {
+        background: url('img/3.png') 0 0 no-repeat;
+        width: 132px;
+        height: 132px;
+        display: block;
+       -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+   }
+   
+   25% { 
+       background: url('img/15.png') 0 0 no-repeat;
+       width: 132px;
+       height: 132px;
+       display: block;
+     
+   }
+   75% {
+       background: url('img/70.png') 0 0 no-repeat;
+       width: 132px;
+       height: 132px;
+       display: block;
+     ;
+   }
+   
+   100% { 
+        background: url('img/15.png') 0 0 no-repeat;
+        width: 132px;
+        height: 132px;
+        display: block;
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+   }
+}
+
+
+
+div.av-visible div.my-skills div.circleprogressbar figure.quinze{
+    animation: gira_barra_quinze 1s ease-in 1s 1;
+    background: url('img/15.png') 0 0 no-repeat;
+    width: 132px;
+    height: 132px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -66px;
+    margin-left: -66px;
+}
+/* ================================== barra 70% =============================== */
+
+
+
+@keyframes gira_barra_setenta {
+   0% {
+        background: url('img/3.png') 0 0 no-repeat;
+        width: 132px;
+        height: 132px;
+        display: block;
+       -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+   }
+   
+   25% { 
+       background: url('img/15.png') 0 0 no-repeat;
+       width: 132px;
+       height: 132px;
+       display: block;
+     
+   }
+   75% {
+       background: url('img/90.png') 0 0 no-repeat;
+       width: 132px;
+       height: 132px;
+       display: block;
+     ;
+   }
+   
+   100% { 
+        background: url('img/70.png') 0 0 no-repeat;
+        width: 132px;
+        height: 132px;
+        display: block;
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+   }
+}
+
+
+
+div.av-visible div.my-skills div.circleprogressbar figure.setenta{
+    animation: gira_barra_setenta 1s ease-in 1s 1;
+    background: url('img/70.png') 0 0 no-repeat;
+    width: 132px;
+    height: 132px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -66px;
+    margin-left: -66px;
+}
+/* ================================== barra 80% =============================== */
+
+
+
+@keyframes gira_barra_oitenta {
+   0% {
+        background: url('img/3.png') 0 0 no-repeat;
+        width: 132px;
+        height: 132px;
+        display: block;
+       -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+   }
+   
+   25% { 
+       background: url('img/15.png') 0 0 no-repeat;
+       width: 132px;
+       height: 132px;
+       display: block;
+     
+   }
+   75% {
+       background: url('img/90.png') 0 0 no-repeat;
+       width: 132px;
+       height: 132px;
+       display: block;
+     ;
+   }
+   
+   100% { 
+        background: url('img/80.png') 0 0 no-repeat;
+        width: 132px;
+        height: 132px;
+        display: block;
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+   }
+}
+
+
+
+div.av-visible div.my-skills div.circleprogressbar figure.oitenta{
+    animation: gira_barra_oitenta 1s ease-in 1s 1;
+    background: url('img/80.png') 0 0 no-repeat;
+    width: 132px;
+    height: 132px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -66px;
+    margin-left: -66px;
+}
+/* ================================== barra 50%  =============================== */
+
+
+
+@keyframes gira_barra_cinquenta {
+   0% {
+        background: url('img/3.png') 0 0 no-repeat;
+        width: 132px;
+        height: 132px;
+        display: block;
+       -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+   }
+   
+   25% { 
+       background: url('img/15.png') 0 0 no-repeat;
+       width: 132px;
+       height: 132px;
+       display: block;
+     
+   }
+   75% {
+       background: url('img/90.png') 0 0 no-repeat;
+       width: 132px;
+       height: 132px;
+       display: block;
+     ;
+   }
+   
+   100% { 
+        background: url('img/50.png') 0 0 no-repeat;
+        width: 132px;
+        height: 132px;
+        display: block;
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+   }
+}
+
+
+
+div.av-visible div.my-skills div.circleprogressbar figure.cinquenta{
+    animation: gira_barra_cinquenta 1s ease-in 1s 1;
+    background: url('img/50.png') 0 0 no-repeat;
+    width: 132px;
+    height: 132px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -66px;
+    margin-left: -66px;
+}
+/* ================================== barra 25%  =============================== */
+
+
+
+@keyframes gira_barra_vinte-cinco {
+   0% {
+        background: url('img/3.png') 0 0 no-repeat;
+        width: 132px;
+        height: 132px;
+        display: block;
+       -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+   }
+   
+   25% { 
+       background: url('img/15.png') 0 0 no-repeat;
+       width: 132px;
+       height: 132px;
+       display: block;
+     
+   }
+   75% {
+       background: url('img/90.png') 0 0 no-repeat;
+       width: 132px;
+       height: 132px;
+       display: block;
+     ;
+   }
+   
+   100% { 
+        background: url('img/25.png') 0 0 no-repeat;
+        width: 132px;
+        height: 132px;
+        display: block;
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+   }
+}
+
+
+
+div.av-visible div.my-skills div.circleprogressbar figure.vinte-cinco{
+    animation: gira_barra_vinte-cinco 1s ease-in 1s 1;
+    background: url('img/25.png') 0 0 no-repeat;
+    width: 132px;
+    height: 132px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -66px;
+    margin-left: -66px;
+}
